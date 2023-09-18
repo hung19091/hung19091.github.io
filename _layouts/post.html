@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" style="color-scheme: dark">
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -28,6 +28,18 @@ layout: base
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+  </div>
+
+  <div class="text-justify" itemprop="articleBody" id="content" style="color:white;">
+    {{ content }}
+    <script
+      repo="hung19091/blog_comment"
+      src="https://utteranc.es/client.js"
+      issue-term="url"
+      theme="github-light"
+      crossorigin="anonymous"
+      async="async"
+    ></script>
   </div>
 
   {%- if site.disqus.shortname -%}

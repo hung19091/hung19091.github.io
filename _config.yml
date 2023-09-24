@@ -1,14 +1,12 @@
-title: Your awesome title
+title: 大塚宏プロジェクト
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: 大塚宏(Otsuka Hiro)
+  email: hung19091@gmail.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  Yamino chikarani nomarete,shine.
 
 # Build settings
 
@@ -45,6 +43,8 @@ minima:
   #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
   #   - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
   #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+  social_links:
+    - { platform: youtube,        user_url: "https://www.youtube.com/hung19091" }
 
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.

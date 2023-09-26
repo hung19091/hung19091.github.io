@@ -11,6 +11,7 @@ version=試用版
 expiry_date=2023/10/10
 
 {"available":"true","version":"試用版","expiry_date":"2023/10/10"}
+https://hirosama.iinaa.net/products/autoSubmit/key01.html
 
 
 狀態

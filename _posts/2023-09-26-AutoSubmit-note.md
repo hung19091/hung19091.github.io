@@ -58,6 +58,6 @@ msg_arr[0].textContent;
 //關閉驗證碼輸入後的訊息
 msg_arr[0].parentNode.getElementsByTagName('button')[0].click();
 
-//關閉輸入驗證碼的div
+//關閉輸入驗證碼的div(僅能在iframe內部使用)
 window.parent.$('#divAddE20').dialog('close');
 ```

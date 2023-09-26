@@ -4,6 +4,7 @@ title: AutoSubmit-note
 categories: program
 ---
 
+```
 驗證訊息
 available=true
 version=試用版
@@ -59,3 +60,4 @@ msg_arr[0].parentNode.getElementsByTagName('button')[0].click();
 
 //關閉輸入驗證碼的div
 window.parent.$('#divAddE20').dialog('close');
+```

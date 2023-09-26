@@ -1,3 +1,9 @@
+---
+layout: post
+title: AutoSubmit-note
+categories: program
+---
+
 [進場確認單清單]
 var a_arr = document.getElementsByTagName('a');
 a_arr = [...a_arr].filter((ele) => ele.textContent.indexOf('進廠確認單清單') > 0);

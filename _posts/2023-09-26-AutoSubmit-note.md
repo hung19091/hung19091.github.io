@@ -62,3 +62,30 @@ msg_arr[0].parentNode.getElementsByTagName('button')[0].click();
 //關閉輸入驗證碼的div(僅能在iframe內部使用)
 window.parent.$('#divAddE20').dialog('close');
 ```
+
+VB
+```
+Imports System.Text
+Imports Newtonsoft.Json
+Imports Newtonsoft.Json.Linq
+
+Public Class Form1
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim webClient As New System.Net.WebClient
+        webClient.Headers.Add("User-Agent: Other")
+        webClient.Encoding = Encoding.UTF8
+        Dim result As String = webClient.DownloadString("https://hirosama.iinaa.net/products/autoSubmit/key01.html")
+
+        Dim jstr_start = result.IndexOf("{""available")
+        Dim jstr_length = result.IndexOf("""}") - jstr_start + 2
+        result = result.Substring(jstr_start, jstr_length)
+        Console.WriteLine(result)
+
+        Dim JSONString = JsonConvert.SerializeObject(result)
+        Dim jObj As JObject = JObject.Parse(result)
+        Console.WriteLine("available = " & jObj("available").ToString())
+        Console.WriteLine("version = " & jObj("version").ToString())
+        Console.WriteLine("expiry_date = " & jObj("expiry_date").ToString())
+    End Sub
+End Class
+```

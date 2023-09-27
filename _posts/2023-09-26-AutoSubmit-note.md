@@ -63,7 +63,7 @@ msg_arr[0].parentNode.getElementsByTagName('button')[0].click();
 window.parent.$('#divAddE20').dialog('close');
 ```
 
-VB
+##VB
 ```
 Imports System.Text
 Imports Newtonsoft.Json

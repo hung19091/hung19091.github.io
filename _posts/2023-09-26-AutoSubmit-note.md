@@ -95,4 +95,7 @@ https://github.com/cefsharp/CefSharp/discussions/3982
 
 reCAPTCHA v3 分數偵測器
 https://antcpt.com/score_detector/
+
+tensorflow-ocr
+https://pylessons.com/tensorflow-ocr-captcha
 ```

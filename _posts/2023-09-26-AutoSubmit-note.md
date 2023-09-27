@@ -107,4 +107,7 @@ https://kozyrk.medium.com/chinese-all-about-tensorflow-f1e2ab1b89b1
 
 Keras作者推荐的OCR项目Keras-OCR，基于tf.keras+tf2.0，方便易用
 https://blog.csdn.net/javastart/article/details/104032570
+
+用於讀取驗證碼的 OCR 模型
+https://keras.io/examples/vision/captcha_ocr/
 ```

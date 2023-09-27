@@ -88,4 +88,8 @@ Public Class Form1
         Console.WriteLine("expiry_date = " & jObj("expiry_date").ToString())
     End Sub
 End Class
+
+更改user-agent
+https://tech-blog.cymetrics.io/posts/nick/google-recaptcha/
+https://github.com/cefsharp/CefSharp/discussions/3982
 ```

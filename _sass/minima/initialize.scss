@@ -22,6 +22,10 @@ $on-laptop:        800px !default;
 $on-medium:        $on-palm !default;
 $on-large:         $on-laptop !default;
 
+$code-html-background-color: #F6F8FA
+$code-html-font-color: #1F2328
+
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {

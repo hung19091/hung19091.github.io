@@ -163,18 +163,17 @@ code {
   font-family: $code-font-family;
   font-size: 0.9375em;
   border: 1px solid $border-color-01;
-  border-radius: 3px;  
+  border-radius: 3px;
+  background-color: transparent;
 }
 
 code {
-  padding: 1px 5px;
-  background-color: $code-html-background-color;
+  padding: 1px 5px;  
 }
 
 pre {
   padding: 8px 12px;
-  overflow-x: auto;
-  background-color: $code-background-color;
+  overflow-x: auto; 
   
   > code {
     border: 0;

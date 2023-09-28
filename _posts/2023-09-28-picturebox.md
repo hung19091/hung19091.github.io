@@ -15,7 +15,7 @@ categories: program
 
 1）建立自訂類別。
 
-2) 在`Public Class ...`下一行，插入`Inherits PictureBox`。
+2）在`Public Class ...`下一行，插入`Inherits PictureBox`。
 
 3）將此程式碼貼到類別中：
 ```
@@ -39,9 +39,9 @@ Protected Overrides Sub OnPaintBackground(e As System.Windows.Forms.PaintEventAr
     End If
 End Sub
 ```
-4) 建立您的專案。
+4）建立您的專案。
 
-5) 從工具箱中選擇您的類別並將其新增至您的表單/使用者控制項。
+5）從工具箱中選擇您的類別並將其新增至您的表單/使用者控制項。
 
 
 不確定有沒有用，先存著

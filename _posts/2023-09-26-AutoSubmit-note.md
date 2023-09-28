@@ -130,4 +130,7 @@ https://blog.csdn.net/javastart/article/details/104032570
 
 用於讀取驗證碼的 OCR 模型
 https://keras.io/examples/vision/captcha_ocr/
+
+最近用Timer踩了一个坑，分享一下避免别人继续踩
+https://www.cnblogs.com/huangxincheng/p/4070353.html
 ```

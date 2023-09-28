@@ -15,7 +15,7 @@ categories: program
 
 1）建立自訂類別。
 
-2) 置於Inherits PictureBox該Public Class ...線下方。
+2) 在`Public Class ...`下一行，插入`Inherits PictureBox`。
 
 3）將此程式碼貼到類別中：
 ```

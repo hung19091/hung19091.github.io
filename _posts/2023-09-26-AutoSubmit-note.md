@@ -64,7 +64,7 @@ window.parent.$('#divAddE20').dialog('close');
 ```
 
 ## VB
-```
+{% highlight vb %}
 Imports System.Text
 Imports Newtonsoft.Json
 Imports Newtonsoft.Json.Linq
@@ -88,6 +88,7 @@ Public Class Form1
         Console.WriteLine("expiry_date = " & jObj("expiry_date").ToString())
     End Sub
 End Class
+{% endhighlight %}
 ```
 
 ## 更改Textbox密碼樣式

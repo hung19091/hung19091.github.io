@@ -183,8 +183,9 @@ pre {
 }
 
 .highlight {
-  border-radius: 3px;
-  background: $code-background-color;
+  border-radius: 15px;
+  background: $code-html-background-color;
+  color: $code-html-font-color;
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {

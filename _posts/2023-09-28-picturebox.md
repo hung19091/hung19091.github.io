@@ -15,7 +15,7 @@ categories: program
 
 1）建立自訂類別。
 
-2）在`Public Class ...`下一行，插入`Inherits PictureBox`。
+2）在{% highlight ruby %}Public Class ...{% endhighlight %}下一行，插入{% highlight ruby %}Inherits PictureBox{% endhighlight %}。
 
 3）將此程式碼貼到類別中：
 ```

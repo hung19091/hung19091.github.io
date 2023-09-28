@@ -18,7 +18,7 @@ categories: program
 2）在<code>Public Class ...</code>下一行，插入<code>Inherits PictureBox</code>。
 
 3）將此程式碼貼到類別中：
-```
+{% highlight vb %}
 Protected Overrides Sub OnPaintBackground(e As System.Windows.Forms.PaintEventArgs)
     MyBase.OnPaintBackground(e)
 
@@ -38,7 +38,8 @@ Protected Overrides Sub OnPaintBackground(e As System.Windows.Forms.PaintEventAr
         Next
     End If
 End Sub
-```
+{% endhighlight %}
+
 4）建立您的專案。
 
 5）從工具箱中選擇您的類別並將其新增至您的表單/使用者控制項。

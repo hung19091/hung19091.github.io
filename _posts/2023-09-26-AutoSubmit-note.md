@@ -4,7 +4,8 @@ title: AutoSubmit-note
 categories: program
 ---
 
-```
+## JS
+{% highlight javascript %}
 驗證訊息
 available=true
 version=試用版
@@ -61,7 +62,7 @@ msg_arr[0].parentNode.getElementsByTagName('button')[0].click();
 
 //關閉輸入驗證碼的div(僅能在iframe內部使用)
 window.parent.$('#divAddE20').dialog('close');
-```
+{% endhighlight %}
 
 ## VB
 {% highlight vb %}
@@ -89,10 +90,9 @@ Public Class Form1
     End Sub
 End Class
 {% endhighlight %}
-```
 
 ## 更改Textbox密碼樣式
-```
+{% highlight vb %}
 Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
     If TextBox1.PasswordChar = Nothing Then
         TextBox1.PasswordChar = "●"
@@ -108,7 +108,7 @@ End Sub
 Private Sub Form1_MouseEnter(sender As Object, e As EventArgs) Handles Me.MouseEnter
     PictureBox1.BorderStyle = BorderStyle.None
 End Sub
-```
+{% endhighlight %}
 
 ## Other URL
 ```

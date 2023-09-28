@@ -3,7 +3,7 @@ layout: post
 title: VB.NET 透明pictureBox，顯示底下的元件
 categories: program
 ---
-原文連結:https://stackoverflow.com/questions/32241014/transparency-of-picture-box
+原文連結:[https://stackoverflow.com/questions/32241014/transparency-of-picture-box]
 
 
 

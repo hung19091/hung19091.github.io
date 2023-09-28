@@ -53,7 +53,7 @@ edit_btn_arr[0].click();
 //驗證碼輸入框
 let frame_Verify = frame.contentWindow.document.getElementsByTagName("iframe")[0];
 let input_arr_Verify = frame_Verify.contentWindow.document.getElementsByTagName("input");
-input_arr_Verify = [...btn_arr_Verify].filter((ele) => ele.id == 'VerificationCode');
+input_arr_Verify = [...input_arr_Verify].filter((ele) => ele.id == 'VerificationCode');
 //驗證碼輸入後的訊息
 let msg_arr = [...frame_Verify.contentWindow.document.getElementsByTagName("div")].filter((ele) => ele.id == 'divMessage');
 msg_arr[0].textContent;

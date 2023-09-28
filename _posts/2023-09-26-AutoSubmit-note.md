@@ -90,6 +90,25 @@ Public Class Form1
 End Class
 ```
 
+## 更改Textbox密碼樣式
+```
+Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+    If TextBox1.PasswordChar = Nothing Then
+        TextBox1.PasswordChar = "●"
+    Else
+        TextBox1.PasswordChar = Nothing
+    End If
+End Sub
+
+Private Sub PictureBox1_MouseEnter(sender As Object, e As EventArgs) Handles PictureBox1.MouseEnter
+    PictureBox1.BorderStyle = BorderStyle.Fixed3D
+End Sub
+
+Private Sub Form1_MouseEnter(sender As Object, e As EventArgs) Handles Me.MouseEnter
+    PictureBox1.BorderStyle = BorderStyle.None
+End Sub
+```
+
 ## Other URL
 ```
 更改user-agent

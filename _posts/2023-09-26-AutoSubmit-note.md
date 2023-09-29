@@ -133,4 +133,7 @@ https://keras.io/examples/vision/captcha_ocr/
 
 最近用Timer踩了一个坑，分享一下避免别人继续踩
 https://www.cnblogs.com/huangxincheng/p/4070353.html
+
+CefSharp-如何在 C# 中處理 Javascript 事件？
+https://github.com/cefsharp/CefSharp/wiki/Frequently-asked-questions#JSEvent
 ```

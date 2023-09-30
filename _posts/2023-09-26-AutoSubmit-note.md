@@ -142,4 +142,7 @@ http://cefsharp.github.io/
 
 CefSharp-擷取/停用按鍵事件以停用退格鍵功能
 https://github.com/cefsharp/CefSharp/issues/1512
+
+CefSharp-瀏覽器 SendKeys
+https://stackoverflow.com/questions/44736904/issue-with-cefsharp-browser-sendkeys
 ```

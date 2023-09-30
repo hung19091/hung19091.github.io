@@ -139,4 +139,7 @@ https://github.com/cefsharp/CefSharp/wiki/Frequently-asked-questions#JSEvent
 
 CefSharp-官網
 http://cefsharp.github.io/
+
+CefSharp-擷取/停用按鍵事件以停用退格鍵功能
+https://github.com/cefsharp/CefSharp/issues/1512
 ```

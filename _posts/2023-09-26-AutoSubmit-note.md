@@ -62,6 +62,9 @@ msg_arr[0].parentNode.getElementsByTagName('button')[0].click();
 
 //關閉輸入驗證碼的div(僅能在iframe內部使用)
 window.parent.$('#divAddE20').dialog('close');
+
+//滾輪至指定物件
+$('#TEST')[0].scrollIntoView()
 {% endhighlight %}
 
 ## VB

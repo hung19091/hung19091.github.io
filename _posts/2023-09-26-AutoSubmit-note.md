@@ -148,4 +148,7 @@ https://github.com/cefsharp/CefSharp/issues/1512
 
 CefSharp-瀏覽器 SendKeys
 https://stackoverflow.com/questions/44736904/issue-with-cefsharp-browser-sendkeys
+
+CefSharp-登入Google
+https://stackoverflow.com/questions/62506808/how-do-i-sign-in-to-google-with-cefsharp-browser-in-wpf
 ```

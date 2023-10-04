@@ -151,4 +151,13 @@ https://stackoverflow.com/questions/44736904/issue-with-cefsharp-browser-sendkey
 
 CefSharp-登入Google
 https://stackoverflow.com/questions/62506808/how-do-i-sign-in-to-google-with-cefsharp-browser-in-wpf
+
+CefSharp-CefSettings 和 BrowserSettings
+https://github.com/cefsharp/CefSharp/wiki/General-Usage#cefsettings-and-browsersettings
+
+CefSharp-從磁碟/資料庫/嵌入資源/流載入 HTML/CSS/JavaScript/等
+https://github.com/cefsharp/CefSharp/wiki/General-Usage#loading-htmlcssjavascriptetc-from-diskdatabaseembedded-resourcestream
+
+CefSharp-將 Chrome 連線到正在執行的執行個體
+https://github.com/cefsharp/CefSharp/wiki/General-Usage#devtools
 ```

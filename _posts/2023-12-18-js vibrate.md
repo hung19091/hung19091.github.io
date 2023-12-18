@@ -6,6 +6,6 @@ categories: program
 
 ##URL
 ```
-[https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator/vibrate](<MDN-Navigator.vibrate()>)
-[https://www.jianshu.com/p/76d50899b8f3](<簡書-js 移动端使手机震动>)
+[MDN-Navigator.vibrate()](<https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator/vibrate>)
+[簡書-js 移动端使手机震动](<https://www.jianshu.com/p/76d50899b8f3>)
 ```
